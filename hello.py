@@ -1,12 +1,10 @@
 #User information"
+#the input function allows the user to assign thei name which is a value to the variable userName
 userName=input("Enter username:")
-age=input("Enter age:")
-#Asked the user to input their hoby so its assigned to the myHobby variable
-myHobby=("Enter hobby:")
-#I asked the computer to pull my name and hobby from memory when i print the text
-txt=(f"My name is {userName} and i like {myHobby}")
-#I asked the computer to pull my name and calculkated age from memory when i print the text
-txtt=(f"My name is {userName} and i am {age}")
+#the int function allows the user to input an integer withouht python interpretating as a string
+age=int(input("Enter age:"))
+print(f"My name is {userName} and i am {age}")
+
 
 
 
